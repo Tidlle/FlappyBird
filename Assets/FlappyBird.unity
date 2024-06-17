@@ -135,7 +135,6 @@ GameObject:
   - component: {fileID: 255039453}
   - component: {fileID: 255039455}
   - component: {fileID: 255039456}
-  - component: {fileID: 255039457}
   m_Layer: 0
   m_Name: base
   m_TagString: Untagged
@@ -268,20 +267,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocidade: 0.6
---- !u!114 &255039457
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 255039452}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 337118d31ddf827439b288e5cd62353c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  velocidade: 1.5
-  variacaoposicaoY: 0
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -454,7 +439,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 972479896}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.8, y: 1.13, z: 0}
+  m_LocalPosition: {x: -0.88, y: 1.13, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -652,14 +637,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1556122152}
   - component: {fileID: 1556122151}
-  - component: {fileID: 1556122153}
   - component: {fileID: 1556122154}
-  - component: {fileID: 1556122160}
-  - component: {fileID: 1556122159}
-  - component: {fileID: 1556122158}
-  - component: {fileID: 1556122157}
-  - component: {fileID: 1556122156}
-  - component: {fileID: 1556122155}
   m_Layer: 0
   m_Name: background-day
   m_TagString: Untagged
@@ -734,20 +712,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1556122153
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1556122150}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 337118d31ddf827439b288e5cd62353c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  velocidade: 1.5
-  variacaoposicaoY: 0
 --- !u!114 &1556122154
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -761,90 +725,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocidade: 0.6
---- !u!114 &1556122155
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1556122150}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 337118d31ddf827439b288e5cd62353c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  velocidade: 1.5
-  variacaoposicaoY: 0
---- !u!114 &1556122156
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1556122150}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 337118d31ddf827439b288e5cd62353c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  velocidade: 1.5
-  variacaoposicaoY: 0
---- !u!114 &1556122157
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1556122150}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 337118d31ddf827439b288e5cd62353c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  velocidade: 1.5
-  variacaoposicaoY: 0
---- !u!114 &1556122158
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1556122150}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 337118d31ddf827439b288e5cd62353c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  velocidade: 1.5
-  variacaoposicaoY: 0
---- !u!114 &1556122159
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1556122150}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 337118d31ddf827439b288e5cd62353c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  velocidade: 1.5
-  variacaoposicaoY: 0
---- !u!114 &1556122160
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1556122150}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 337118d31ddf827439b288e5cd62353c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  velocidade: 1.5
-  variacaoposicaoY: 0
 --- !u!1 &1863902542
 GameObject:
   m_ObjectHideFlags: 0
@@ -1076,9 +956,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2092975371}
   - component: {fileID: 2092975370}
-  - component: {fileID: 2092975369}
   - component: {fileID: 2092975368}
-  - component: {fileID: 2092975372}
   m_Layer: 0
   m_Name: background-day (1)
   m_TagString: Untagged
@@ -1099,20 +977,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocidade: 0.6
---- !u!114 &2092975369
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2092975367}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 337118d31ddf827439b288e5cd62353c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  velocidade: 1.5
-  variacaoposicaoY: 0
 --- !u!212 &2092975370
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1180,17 +1044,3 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2092975372
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2092975367}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 337118d31ddf827439b288e5cd62353c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  velocidade: 1.5
-  variacaoposicaoY: 0

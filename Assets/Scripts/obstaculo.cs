@@ -29,6 +29,7 @@ public class obstaculo : MonoBehaviour
     {
         this.transform.Translate(Vector3.left * Time.deltaTime);
         if (!this.pontuei && this.transform.position.x < this.posicaoPassaro.x){
+            Debug.Log("Pontuei");
             this.controladorUI.adicionarPontos();
             this.pontuei = true;    
         }
